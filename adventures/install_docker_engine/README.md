@@ -15,3 +15,35 @@ sudo systemctl start docker
 sudo systemctl enable docker
 sudo docker run hello-world
 ```
+
+# Installing Docker with Snap
+
+```bash
+sudo apt update
+```
+
+ensure snapd is installed
+```bash
+sudo apt install -y snapd
+```
+
+Ensure snapd is running:
+```bash
+sudo systemctl enable --now snapd
+```
+
+Install Docker via Snap
+```bash
+sudo snap install docker
+```
+
+Check Docker version:
+```bash
+docker --version
+```
+
+Run a test container:
+```bash
+sudo docker run hello-world
+```
+
