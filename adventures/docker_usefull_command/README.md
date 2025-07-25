@@ -20,6 +20,8 @@ List images with specific format
 docker images --format "table {{.Repository}}\t{{.Tag}}\t{{.Size}}"
 ```
 
+
+
 ## List Docker Containers
 
 List running containers
@@ -42,7 +44,9 @@ List containers with specific format
 docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
 ```
 
-# Additional Useful Options
+
+
+## Additional Useful Options
 
 Show image sizes in human-readable format
 ```bash
@@ -60,7 +64,8 @@ docker images -f "dangling=true"
 ```
 
 
-# For Containers
+
+## For Containers
 
 Show only container IDs
 ```bash
