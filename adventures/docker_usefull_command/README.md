@@ -97,3 +97,17 @@ Count all images
 ```bash
 docker images -q | wc -l
 ```
+
+
+
+## Stop Container
+
+Stop with container name
+```bash
+sudo docker stop n8n
+```
+
+Stop with container ID
+```bash
+sudo docker stop d25f706bfb18
+```
