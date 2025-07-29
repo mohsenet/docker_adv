@@ -102,7 +102,7 @@ docker images -q | wc -l
 
 ## Stop Container
 
-Stop with container name
+Stop the running container with name
 ```bash
 sudo docker stop n8n
 ```
@@ -110,4 +110,14 @@ sudo docker stop n8n
 Stop with container ID
 ```bash
 sudo docker stop d25f706bfb18
+```
+
+Remove the container (after stopping)
+```bash
+sudo docker rm n8n
+```
+
+You can combine stop and remove using `--force`
+```bash
+sudo docker rm -f n8n
 ```
