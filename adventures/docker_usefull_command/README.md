@@ -121,3 +121,10 @@ You can combine stop and remove using `--force`
 ```bash
 sudo docker rm -f n8n
 ```
+
+---
+
+Stop container (docker-compose.yml)
+```bash
+docker compose stop n8n
+```
