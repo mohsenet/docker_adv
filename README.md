@@ -2,6 +2,8 @@
 
 - [Install Docker Engine](https://github.com/mohsenet/docker_adv/tree/main/adventures/install_docker_engine)
 - [Docker Usefull command](https://github.com/mohsenet/docker_adv/tree/main/adventures/docker_usefull_command)
-- [copy_source_code](https://github.com/mohsenet/docker_adv/tree/main/adventures/copy_source_code)
+- [Copy Source Code](https://github.com/mohsenet/docker_adv/tree/main/adventures/copy_source_code)
+- [Configure a Registry Mirror](https://github.com/mohsenet/docker_adv/tree/main/adventures/configure_a_registry_mirror)
+- [Other](https://github.com/mohsenet/docker_adv/tree/main/adventures/other)
 
 If you can find useful git command here, I will glad about that.
