@@ -8,9 +8,17 @@ sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-
 ### Install the necessary prerequisites and add Docker's official GPG key:
 ```bash
 sudo apt update
+```
+```bash
 sudo apt install -y ca-certificates curl
+```
+```bash
 sudo install -m 0755 -d /etc/apt/keyrings
+```
+```bash
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+```
+```bash
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 ```
 
