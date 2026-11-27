@@ -6,6 +6,7 @@
 - [Install Official Docker](https://github.com/mohsenet/docker_adv/tree/main/adventures/install_official_docker)
 - [Configure a Registry Mirror](https://github.com/mohsenet/docker_adv/tree/main/adventures/configure_a_registry_mirror)
 - [Add User to Docker Group](https://github.com/mohsenet/docker_adv/tree/main/adventures/add_user_to_docker_group)
+- [Justify Docker Log](https://github.com/mohsenet/docker_adv/tree/main/adventures/justify_docker_log)
 - [Other](https://github.com/mohsenet/docker_adv/tree/main/adventures/other)
 
 If you can find useful git command here, I will glad about that.
