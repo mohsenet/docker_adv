@@ -58,3 +58,15 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+### Three volume mount types
+```yml
+# Named volume (what this file uses) — managed by Docker, portable
+volumes: [db:/var/lib/postgresql/data]
+
+# Bind mount — maps a host path directly
+volumes: [./pgdata:/var/lib/postgresql/data]
+
+# Anonymous volume — no name, hard to reference/reuse
+volumes: [/var/lib/postgresql/data]
+```
+
