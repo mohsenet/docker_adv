@@ -58,6 +58,8 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+---
+
 ### Three volume mount types
 ```yml
 # Named volume (what this file uses) — managed by Docker, portable
